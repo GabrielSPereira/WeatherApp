@@ -41,7 +41,6 @@ function App() {
   }
   else {
     let icon = weather['list'][0]['weather'][0]['icon']
-
     return (
       <Fragment>
         <h3>Clima nas suas Coordenadas ({weather['list'][0]['weather'][0]['description']}) na data de {weather['list'][0]['dt_txt']}</h3>
